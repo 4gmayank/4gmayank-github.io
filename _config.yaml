@@ -1,0 +1,25 @@
+theme: jekyll-theme-cayman
+ 
+# Setup
+title:        [Mayank Goyal]
+description: [portfolio]
+google_analytics: 
+baseurl:      ""
+paginate:     1
+values:
+      layout: single
+
+# About/contact
+author:
+  name:       Mayank Goyal
+  url:        http://4gmayank.github.com
+  baseurl:    ""
+
+# Gems
+gems:
+  - jekyll-paginate
+
+#Others
+markdown: kramdown  
+
+include: ["_pages"]
